@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>START MAYBE?</title>
+  <link href="StartMayBe.css" rel="stylesheet">
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<div class="app">
+  <h1 class="title">START MAYBE?</h1>
+  <!--TOP CENTER BAR-->
+<div class="top-bar">
+    <input type="text" id="taskName" placeholder="Enter task">
+    <input type="datetime-local" id="time">
+    
+    <select id="priority">
+        <option>High</option>
+        <option>Medium</option>
+        <option>Low</option>
+    </select>
+
+    <button onclick="addTask()">Add Task</button>
+
+    <button onclick="enableNotifications()">🔔</button>
+
+    <select id="notifyTime">
+        <option value="30">30 min before</option>
+        <option value="5">5 min before</option>
+        <option value="60">1 hour before</option>
+    </select>
+
+    <button onclick="suggestTask()" id="what">TO DO?</button>
+  </div> 
+<!--MAIN -->
+<div class="main">
+  <div class="tasks">
+    <h2>Tasks</h2>
+    <div id="dashboard"></div>
+    <div id="taskList"></div>
+
+    <div id="notesModal" class="modal">
+    <div class="modal-content">
+    
+    <h2>Task Notes</h2>
+    <textarea id="notesInput" placeholder="Write your notes..."></textarea>
+     <br><br>
+
+    <input type="file" id="fileInput" accept="image/*,.pdf,.doc,.txt">
+
+    <div id="preview"></div>
+
+    <br>
+    <button onclick="saveNotes()">Save</button>
+    <button onclick="closeNotesModal()">Cancel</button>
+    </div>
+    </div>
+    <!--For status--> 
+    <div id="statusModal" class="modal">
+  <div class="modal-content">
+    <h3>Update Task Status</h3>
+
+    <select id="statusSelect">
+      <option value="started">Started</option>
+      <option value="midway">Midway</option>
+      <option value="completed">Completed</option>
+    </select>
+
+    <textarea id="statusNote" placeholder="Add note (optional)"></textarea>
+
+    <button onclick="saveStatus()">Save</button>
+    <button onclick="closeStatusModal()">Cancel</button>
+      </div>
+      </div>
+  </div>  
+  
+
+    <div class="suggestions">
+      <h2>Suggested</h2>
+      <div id="suggestedList"></div>
+    </div>
+</div>
+</div>
+
+<script src="StartMayBe.js"></script>
+
+</body>
+</html>
