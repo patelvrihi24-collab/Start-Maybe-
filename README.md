@@ -38,7 +38,6 @@ The original START MAYBE tracked tasks, priority, and progress history. This ver
 
 Most task managers only track *what* needs to get done and *when*. START MAYBE tracks the gap between planning and reality — not just by logging progress, but by acknowledging that deadlines alone don't get people to start. Mood, self-imposed pressure, and a little honest nudging do more of that work than a due date ever will.
 
-Start Maybe? Again is like expressing the feeling in which we have done the task and than we get perfect structure that makes you urge to do it all over again that is what happened with me Start Maybe? which is older version has my first project my insights as fresher (which i still am) when craeting Start Maybe? Again i lost motivation than i would come back to same files after few days it is the urge that thrives the ideas. i ain't a expert but looking forward to learn more and more so that when i review Start Maybe? again and feel proud of my younger self i look forward to my older self modifying Start Maybe? for better, Thank You.
 ---
 
 ## Tech Stack
